@@ -1,4 +1,4 @@
-package com.simplemobiletools.flashlight.helpers
+package com.shaigerbi.flashlight.helpers
 
 const val BRIGHT_DISPLAY = "bright_display"
 const val BRIGHT_DISPLAY_COLOR = "bright_display_color"

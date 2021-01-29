@@ -1,11 +1,11 @@
-package com.simplemobiletools.flashlight.helpers
+package com.shaigerbi.flashlight.helpers
 
 import android.annotation.TargetApi
 import android.content.Context
 import android.hardware.camera2.CameraManager
 import android.os.Build
 import android.os.Handler
-import com.simplemobiletools.flashlight.models.Events
+import com.shaigerbi.flashlight.models.Events
 import org.greenrobot.eventbus.EventBus
 
 internal class MarshmallowCamera constructor(val context: Context) {

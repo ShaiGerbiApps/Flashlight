@@ -1,4 +1,4 @@
-package com.simplemobiletools.flashlight.activities
+package com.shaigerbi.flashlight.activities
 
 import android.app.Activity
 import android.appwidget.AppWidgetManager
@@ -12,13 +12,12 @@ import com.simplemobiletools.commons.extensions.applyColorFilter
 import com.simplemobiletools.commons.extensions.setFillWithStroke
 import com.simplemobiletools.commons.helpers.DEFAULT_WIDGET_BG_COLOR
 import com.simplemobiletools.commons.helpers.IS_CUSTOMIZING_COLORS
-import com.simplemobiletools.flashlight.R
-import com.simplemobiletools.flashlight.extensions.config
-import com.simplemobiletools.flashlight.extensions.updateBrightDisplayWidget
-import com.simplemobiletools.flashlight.helpers.MyWidgetTorchProvider
-import kotlinx.android.synthetic.main.widget_torch_config.*
+import com.shaigerbi.flashlight.R
+import com.shaigerbi.flashlight.extensions.config
+import com.shaigerbi.flashlight.helpers.MyWidgetBrightDisplayProvider
+import kotlinx.android.synthetic.main.widget_bright_display_config.*
 
-class WidgetTorchConfigureActivity : SimpleActivity() {
+class WidgetBrightDisplayConfigureActivity : SimpleActivity() {
     private var mWidgetAlpha = 0f
     private var mWidgetId = 0
     private var mWidgetColor = 0
@@ -28,7 +27,7 @@ class WidgetTorchConfigureActivity : SimpleActivity() {
         useDynamicTheme = false
         super.onCreate(savedInstanceState)
         setResult(Activity.RESULT_CANCELED)
-        setContentView(R.layout.widget_torch_config)
+        setContentView(R.layout.widget_bright_display_config)
         initVariables()
 
         val isCustomizingColors = intent.extras?.getBoolean(IS_CUSTOMIZING_COLORS) ?: false
@@ -77,12 +76,10 @@ class WidgetTorchConfigureActivity : SimpleActivity() {
     }
 
     private fun requestWidgetUpdate() {
-        Intent(AppWidgetManager.ACTION_APPWIDGET_UPDATE, null, this, MyWidgetTorchProvider::class.java).apply {
+        Intent(AppWidgetManager.ACTION_APPWIDGET_UPDATE, null, this, MyWidgetBrightDisplayProvider::class.java).apply {
             putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, intArrayOf(mWidgetId))
             sendBroadcast(this)
         }
-
-        updateBrightDisplayWidget()
     }
 
     private fun updateColors() {

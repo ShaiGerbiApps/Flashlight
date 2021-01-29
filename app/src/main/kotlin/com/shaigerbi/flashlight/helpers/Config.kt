@@ -1,4 +1,4 @@
-package com.simplemobiletools.flashlight.helpers
+package com.shaigerbi.flashlight.helpers
 
 import android.content.Context
 import android.graphics.Color

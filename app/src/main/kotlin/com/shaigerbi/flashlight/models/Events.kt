@@ -1,4 +1,4 @@
-package com.simplemobiletools.flashlight.models
+package com.shaigerbi.flashlight.models
 
 class Events {
     class StateChanged(val isEnabled: Boolean)

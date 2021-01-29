@@ -1,7 +1,7 @@
-package com.simplemobiletools.flashlight.activities
+package com.shaigerbi.flashlight.activities
 
 import com.simplemobiletools.commons.activities.BaseSimpleActivity
-import com.simplemobiletools.flashlight.R
+import com.shaigerbi.flashlight.R
 
 open class SimpleActivity : BaseSimpleActivity() {
     override fun getAppIconIDs() = arrayListOf(

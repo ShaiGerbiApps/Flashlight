@@ -1,4 +1,4 @@
-package com.simplemobiletools.flashlight
+package com.shaigerbi.flashlight
 
 import android.app.Application
 import com.simplemobiletools.commons.extensions.checkUseEnglish

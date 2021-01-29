@@ -1,4 +1,4 @@
-package com.simplemobiletools.flashlight.helpers
+package com.shaigerbi.flashlight.helpers
 
 import android.content.Context
 import android.graphics.SurfaceTexture
@@ -7,10 +7,10 @@ import android.os.Handler
 import com.simplemobiletools.commons.extensions.toast
 import com.simplemobiletools.commons.helpers.isMarshmallowPlus
 import com.simplemobiletools.commons.helpers.isNougatPlus
-import com.simplemobiletools.flashlight.R
-import com.simplemobiletools.flashlight.extensions.config
-import com.simplemobiletools.flashlight.extensions.updateWidgets
-import com.simplemobiletools.flashlight.models.Events
+import com.shaigerbi.flashlight.R
+import com.shaigerbi.flashlight.extensions.config
+import com.shaigerbi.flashlight.extensions.updateWidgets
+import com.shaigerbi.flashlight.models.Events
 import org.greenrobot.eventbus.EventBus
 
 class MyCameraImpl(val context: Context) {

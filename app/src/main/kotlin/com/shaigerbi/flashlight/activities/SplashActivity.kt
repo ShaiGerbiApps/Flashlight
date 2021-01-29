@@ -1,4 +1,4 @@
-package com.simplemobiletools.flashlight.activities
+package com.shaigerbi.flashlight.activities
 
 import android.content.Intent
 import com.simplemobiletools.commons.activities.BaseSplashActivity

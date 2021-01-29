@@ -1,4 +1,4 @@
-package com.simplemobiletools.flashlight.extensions
+package com.shaigerbi.flashlight.extensions
 
 import android.appwidget.AppWidgetManager
 import android.content.ComponentName
@@ -7,7 +7,7 @@ import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.drawable.Drawable
-import com.simplemobiletools.flashlight.helpers.*
+import com.shaigerbi.flashlight.helpers.*
 
 val Context.config: Config get() = Config.newInstance(applicationContext)
 

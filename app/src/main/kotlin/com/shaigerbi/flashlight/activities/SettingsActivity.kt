@@ -1,12 +1,12 @@
-package com.simplemobiletools.flashlight.activities
+package com.shaigerbi.flashlight.activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import com.simplemobiletools.commons.extensions.*
 import com.simplemobiletools.commons.helpers.IS_CUSTOMIZING_COLORS
-import com.simplemobiletools.flashlight.R
-import com.simplemobiletools.flashlight.extensions.config
+import com.shaigerbi.flashlight.R
+import com.shaigerbi.flashlight.extensions.config
 import kotlinx.android.synthetic.main.activity_settings.*
 import java.util.*
 

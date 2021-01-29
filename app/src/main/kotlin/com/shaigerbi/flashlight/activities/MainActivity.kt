@@ -1,4 +1,4 @@
-package com.simplemobiletools.flashlight.activities
+package com.shaigerbi.flashlight.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -17,11 +17,11 @@ import com.simplemobiletools.commons.helpers.PERMISSION_CAMERA
 import com.simplemobiletools.commons.helpers.isNougatMR1Plus
 import com.simplemobiletools.commons.helpers.isNougatPlus
 import com.simplemobiletools.commons.models.FAQItem
-import com.simplemobiletools.flashlight.BuildConfig
-import com.simplemobiletools.flashlight.R
-import com.simplemobiletools.flashlight.extensions.config
-import com.simplemobiletools.flashlight.helpers.MyCameraImpl
-import com.simplemobiletools.flashlight.models.Events
+import com.shaigerbi.flashlight.BuildConfig
+import com.shaigerbi.flashlight.R
+import com.shaigerbi.flashlight.extensions.config
+import com.shaigerbi.flashlight.helpers.MyCameraImpl
+import com.shaigerbi.flashlight.models.Events
 import kotlinx.android.synthetic.main.activity_main.*
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe

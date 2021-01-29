@@ -1,4 +1,4 @@
-package com.simplemobiletools.flashlight.helpers
+package com.shaigerbi.flashlight.helpers
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -10,10 +10,10 @@ import android.graphics.Bitmap
 import android.graphics.Color
 import android.widget.RemoteViews
 import com.simplemobiletools.commons.extensions.getColoredDrawableWithColor
-import com.simplemobiletools.flashlight.R
-import com.simplemobiletools.flashlight.activities.BrightDisplayActivity
-import com.simplemobiletools.flashlight.extensions.config
-import com.simplemobiletools.flashlight.extensions.drawableToBitmap
+import com.shaigerbi.flashlight.R
+import com.shaigerbi.flashlight.activities.BrightDisplayActivity
+import com.shaigerbi.flashlight.extensions.config
+import com.shaigerbi.flashlight.extensions.drawableToBitmap
 
 class MyWidgetBrightDisplayProvider : AppWidgetProvider() {
     private val OPEN_APP_INTENT_ID = 1
